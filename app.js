@@ -1,2 +1,3 @@
-// document.querySelector(".btn").addEventListener("click",()=>alert("I was clicked"))
-alert("hello")
+var btnTranslate = document.querySelector("#btn-translate")
+
+btnTranslate.addEventListener('click', () => console.log("I was clicked"))
