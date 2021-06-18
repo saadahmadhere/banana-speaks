@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speaks</title>
     <style>
-        textarea{
+        textarea, .output-div{
             margin: 1rem;
             display: block;
             width: 80%;
@@ -18,12 +18,21 @@
             padding: 12px 8px;
             border-radius: 12px;
         }
+
+        .output-div{
+            border:1px solid black;
+        }
+           
     </style>
 </head>
 <body>
     <h1>Banana Translate</h1>
     <textarea id = "txt-input" autofocus placeholder="Type your text here..."></textarea>
     <button id="btn-translate">Translate</button>
+    <div>Your output will go here 👇</div>
+    <div class="output-div">
+
+    </div>
     <script src="app.js" type="text/javascript"></script>
 
 </body>
