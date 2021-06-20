@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
+:root{
+    --font: 'Comfortaa', cursive;
+}
+
+*{
+    text-align: center;
+    font-family: var(--font);
+    margin: 0;
+}
+
+header{
+    background-color: yellow;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-weight: 300;
+}
+
+textarea, .output-div{
+    margin: 1rem auto;
+    display: block;
+    width: 80%;
+    padding: 1rem;
+    height: 10vh;
+    
+}
+
+button{
+    padding: 1rem 8px;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    border:none;
+    background-color: rgb(247, 247, 121);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.output-div{
+    border:1px solid black;
+}
+
+img{
+    position:fixed;
+    bottom: 9.5vh;
+    right: 0;
+    height: 150px;
+    width: 100px;
+    
+}
+
+footer{
+    height: 10vh;
+    background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:600px) {
+    img{
+        display: none
+    }
+}
