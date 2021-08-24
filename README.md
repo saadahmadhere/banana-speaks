@@ -1,6 +1,6 @@
 # Banana Speak 
 
-An app made in Vanilla JS used for translating your language in the ones that minions speak.
+An app made in Vanilla JS used for translating your language into the one that minions speak.
 
 ## How to Translate
 
